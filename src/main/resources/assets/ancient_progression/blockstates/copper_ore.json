@@ -1,7 +1,7 @@
 {
 	"variants": {
 		"": {
-			"model": "ancient_progression:block/example_ore"
+			"model": "ancient_progression:block/copper_ore"
 		}
 	}
 }

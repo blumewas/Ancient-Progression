@@ -1,0 +1,6 @@
+{
+  "parent": "ancient_progression:block/cinder",
+  "textures": {
+      "texture": "ancient_progression:block/copper_ore"
+  }
+}

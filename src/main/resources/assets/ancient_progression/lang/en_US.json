@@ -1,4 +1,8 @@
 {
+	"block.ancient_progression.cinder_torch": "Cinder Torch",
 	"block.ancient_progression.copper_ore": "Copper Ore",
+	"item.ancient_progression.copper_ingot": "Copper Ingot",
+	"item.ancient_progression.cinder_catcher": "Cinder Collector",
+
 	"itemGroup.ancient_progression": "Ancient Progression"
 }

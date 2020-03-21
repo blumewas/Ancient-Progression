@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 
 public class AncientProgressionItemGroups {
   
-  public static final ItemGroup MOD_ITEM_GROUP = new AncientProgressionItemGroup(AncientProgression.MODID, () -> new ItemStack(AncientProgressionItems.EXAMPLE_ITEM));
+  public static final ItemGroup MOD_ITEM_GROUP = new AncientProgressionItemGroup(AncientProgression.MODID, () -> new ItemStack(AncientProgressionItems.CINDER_CATCHER));
 
   public static class AncientProgressionItemGroup extends ItemGroup {
     private final Supplier<ItemStack> iconSupplier;

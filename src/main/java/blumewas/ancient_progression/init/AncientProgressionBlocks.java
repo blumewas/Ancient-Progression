@@ -7,4 +7,5 @@ import net.minecraftforge.registries.ObjectHolder;
 @ObjectHolder(AncientProgression.MODID)
 public class AncientProgressionBlocks {
   public static final Block COPPER_ORE = null;
+  public static final Block CINDER_TORCH = null;
 }

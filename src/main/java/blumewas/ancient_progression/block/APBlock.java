@@ -13,7 +13,7 @@ public class APBlock extends Block {
     super(properties);
   }
 
-  private static Properties getProps() {
+  protected static Properties getProps() {
     Properties props = Properties.create(Material.ROCK);
     props.hardnessAndResistance(3.0F, 3.0F);
     return props;

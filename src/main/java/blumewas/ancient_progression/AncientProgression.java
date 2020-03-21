@@ -13,7 +13,7 @@ public class AncientProgression
 
     public static final String MODID = "ancient_progression";
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger(MODID);
+    public static final Logger LOGGER = LogManager.getLogger(MODID);
 
     public AncientProgression() {
         // Register ourselves for server and other game events we are interested in
