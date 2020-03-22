@@ -8,4 +8,5 @@ import net.minecraftforge.registries.ObjectHolder;
 public class AncientProgressionBlocks {
   public static final Block COPPER_ORE = null;
   public static final Block CINDER_TORCH = null;
+  public static final Block EXTINCT_CINDER = null;
 }

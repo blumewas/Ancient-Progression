@@ -2,6 +2,7 @@ package blumewas.ancient_progression;
 
 import blumewas.ancient_progression.block.APBlock;
 import blumewas.ancient_progression.block.CinderBlock;
+import blumewas.ancient_progression.block.ExtinctCinderBlock;
 import blumewas.ancient_progression.init.AncientProgressionBlocks;
 import blumewas.ancient_progression.item.APBlockItem;
 import blumewas.ancient_progression.item.APItem;
@@ -21,9 +22,12 @@ public final class ModEventSubscriber {
   public static void onRegisterItems(RegistryEvent.Register<Item> event) {
     event.getRegistry().registerAll(
       setup(new APItem(), "copper_ingot"),
+      setup(new APItem(), "auricupride_ingot"),
       setup(new CinderCatcher(), "cinder_catcher"),
       setup(new APBlockItem(AncientProgressionBlocks.COPPER_ORE), "copper_ore"),
-      setup(new APBlockItem(AncientProgressionBlocks.CINDER_TORCH), "cinder_torch")
+      setup(new APBlockItem(AncientProgressionBlocks.CINDER_TORCH), "cinder_torch"),
+      setup(new APBlockItem(AncientProgressionBlocks.EXTINCT_CINDER), "extinct_cinder")
+
     );
   }
 
@@ -31,7 +35,9 @@ public final class ModEventSubscriber {
   public static void onRegisterBlocks(RegistryEvent.Register<Block> event) {
     event.getRegistry().registerAll(
       setup(new APBlock(), "copper_ore"),
-      setup(new CinderBlock(), "cinder_torch")
+      setup(new CinderBlock(), "cinder_torch"),
+      setup(new ExtinctCinderBlock(), "extinct_cinder")
+
     );
   }
 

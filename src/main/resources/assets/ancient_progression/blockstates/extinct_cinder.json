@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"remains=1":	{ "model": "ancient_progression:block/extinct_cinder_remains1" },
+		"remains=2":	{ "model": "ancient_progression:block/extinct_cinder_remains2" },
+		"remains=3":	{ "model": "ancient_progression:block/extinct_cinder_remains3" },
+		"remains=4":	{ "model": "ancient_progression:block/extinct_cinder_remains4" }
+	}
+}
