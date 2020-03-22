@@ -5,6 +5,7 @@ import javax.annotation.Nullable;
 import blumewas.ancient_progression.block.CinderBlock;
 import blumewas.ancient_progression.init.AncientProgressionBlocks;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -74,7 +75,8 @@ public class CinderCatcher extends APItem {
       return new ActionResult<ItemStack>(ActionResultType.FAIL, stack);
     }
     BlockPos pos = new BlockPos(traceResult.getHitVec());
-    worldIn.destroyBlock(pos, false);
+    BlockState newState = Blocks.AIR.getDefaultState();
+    worldIn.setBlockState(pos, newState, 1);
     tag.putInt("cinder", cinder+1);
     stack.setTag(tag); 
 
